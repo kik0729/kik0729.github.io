@@ -1,7 +1,71 @@
 <!DOCTYPE html>
 <html>
+<style>
+  html {
+    background: linear-gradient( rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25) ), url(Media/Fundo.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+
+  h1 {
+    text-align: center;
+    font-size: 5vw;
+    font-family: 'Raleway', sans-serif;
+    color: #e0dede;
+  }
+  .centro{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    }
+  .caixa{
+    background-color:rgba(0,0,0,0.5);
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .outros{
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    font-size: 2vw;
+    font-family: 'Raleway', sans-serif;
+    color: #e0dede;
+    -webkit-column-count: 2;
+    -moz-column-count: 2;
+    column-count: 2;
+    list-style-type: none;
+    }
+    a {
+      color: #e0dede;
+      text-decoration: none;
+  }
+  a:hover {
+    text-decoration: underline;
+}
+
+</style>
+
+
+<head>
+  <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+</head>
+
 <body>
-<h1>Hello World</h1>
-<p>I'm hosted with GitHub Pages.</p>
+  <div class= 'centro'>
+      <div class= 'caixa'>
+        <h1> Francisco Castro </h1>
+      </div>
+  </div>
+  <div class= 'outros'>
+    <div class= 'caixa'>
+      <li> <a href="Media/CV.pdf"> C.V. </a> </li>
+      <li> <a href="https://open.spotify.com/artist/3Za7FD2EhJWf3W3cH5m3ba"> Neon Sun </a> </li>
+    </div>
+  </div>
 </body>
 </html>
